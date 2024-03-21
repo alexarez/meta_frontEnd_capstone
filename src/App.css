@@ -28,6 +28,39 @@
   color: #61dafb;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  padding: 25px 0;
+}
+
+.header-nav {
+    display: flex;
+    gap: 1.5vw;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 6vw;
+  flex-wrap: wrap;
+}
+
+.list-wrapper {
+  display: flex;
+  gap: 8vw;
+  flex-wrap: wrap;
+}
+
+footer nav ul {
+  padding: 0;
+  list-style: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
