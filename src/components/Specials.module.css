@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+
+.markazi-regular {
+    font-family: 'Markazi Text', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.specials {
+    padding: 6.5rem 17vw;
+}
+
+.wrapper {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 64px;
+    white-space: nowrap;
+}
+
+.header a:hover {
+    color: #495E57;
+    background-color: white;
+    border: 3px solid #495E57;
+}
+
+@media (max-width: 1389px) {
+    .specials {
+        padding-inline: 15vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    .specials {
+        padding-inline: 10vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

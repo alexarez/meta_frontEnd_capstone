@@ -1,19 +1,15 @@
+import TestimonialCard from './TestimonialCard';
+import testListStyles from './TestimonialList.module.css';
+
 function TestimonialList(props) {
     const testimonialCards = props.testimonials
     .map(testimonial => {
         return (
-            <div className="testimonialCard">
-                <img src={testimonial.rating} alt='Star rating' />
-                <figure className='testimonialAvatar'>
-                    <img src={testimonial.avatar} alt='Avatar' width={50} />
-                    <figcaption>{testimonial.name}</figcaption>
-                </figure>
-                <p>{testimonial.review}</p>
-            </div>
+            <TestimonialCard testimonial={testimonial} />
         )
     })
     return (
-        <div className='testimonialCards'>
+        <div className={testListStyles.wrapper}>
             {testimonialCards}
         </div>
     )

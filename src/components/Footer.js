@@ -1,14 +1,15 @@
-import logo from '../assets/Logo .svg'
+import logo from '../assets/Logo .svg';
+import footStyles from './Footer.module.css';
 
 function Footer() {
     return (
-        <footer className='footer'>
-            <img alt="Footer logo" src={logo}/>
-            <div className='list-wrapper'>
+        <footer className={footStyles.footer}>
+            <a href=""><img alt="Footer logo" src={logo} className={footStyles.logo}/></a>
+            <div className={footStyles['list-wrapper']}>
                 <div>
-                    <h4>Doormat <br></br>Navigation</h4>
+                    <h4 className={footStyles['karla-extra-bold']}>Doormat<br></br>Navigation</h4>
                     <nav>
-                        <ul>
+                        <ul className={`${footStyles['karla-medium']}`}>
                             <li><a href=''>Home</a></li>
                             <li><a href=''>About</a></li>
                             <li><a href=''>Menu</a></li>
@@ -19,9 +20,9 @@ function Footer() {
                     </nav>
                 </div>
                 <div>
-                    <h4>Contact</h4>
+                    <h4 className={footStyles['karla-extra-bold']}>Contact</h4>
                     <nav>
-                        <ul>
+                        <ul className={`${footStyles['karla-medium']}`}>
                             <li><a href=''>Adress</a></li>
                             <li><a href=''>Phone number</a></li>
                             <li><a href=''>Email</a></li>
@@ -29,9 +30,9 @@ function Footer() {
                     </nav>
                 </div>
                 <div>
-                    <h4>Social Media Links</h4>
+                    <h4 className={footStyles['karla-extra-bold']}>Social Media Links</h4>
                     <nav>
-                        <ul>
+                        <ul className={`${footStyles['karla-medium']}`}>
                             <li><a href=''>Adress</a></li>
                             <li><a href=''>Phone number</a></li>
                             <li><a href=''>Email</a></li>

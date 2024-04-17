@@ -1,14 +1,16 @@
-function Nav() {
+import navStyles from './Nav.module.css';
+
+function Nav({ isOpen }) {
     return (
         <>
-            <nav>
-                <ul className="header-nav">
-                    <li><a href=''>Home</a></li>
-                    <li><a href=''>About</a></li>
-                    <li><a href=''>Menu</a></li>
-                    <li><a href=''>Reservations</a></li>
-                    <li><a href=''>Order Online</a></li>
-                    <li><a href=''>Login</a></li>
+            <nav className={`${navStyles.navigation} ${isOpen ? navStyles.expanded : navStyles.colapsed}`}>
+                <ul id='primary-navigation' className={`${navStyles.list} ${navStyles['karla-medium']}`}>
+                    <li><a href='' className={navStyles.item}>Home</a></li>
+                    <li><a href='' className={navStyles.item}>About</a></li>
+                    <li><a href='' className={navStyles.item}>Menu</a></li>
+                    <li><a href='' className={navStyles.item}>Reservations</a></li>
+                    <li><a href='' className={navStyles.item}>Order Online</a></li>
+                    <li><a href='' className={`${navStyles.item} ${navStyles.login}`}>Login</a></li>
                 </ul>
             </nav>
         </>

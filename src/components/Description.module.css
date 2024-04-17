@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+
+.markazi-regular {
+    font-family: 'Markazi Text', serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.markazi-medium {
+    font-family: 'Markazi Text', serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.karla-regular {
+    font-family: 'Karla', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem 7vw;
+    padding: 4rem 4rem;
+}
+
+.text {
+    max-width: 400px;
+}
+
+.text h2 {
+    font-size: 4rem;
+    line-height: 0.6;
+    margin-bottom: 2.5rem;
+    color: #495E57;
+}
+
+.text h2 span {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.text p {
+    text-align: justify;
+    letter-spacing: 0.05rem;
+    color: #333;
+}
+
+.images {
+    position: relative;
+    width: 450px;
+    height: 450px;
+}
+
+.images div {
+    width: 270px;
+    height: 340px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.preview1 {
+    background-image: url('../assets/restaurant chef B.jpg');
+    position: absolute;
+    z-index: 1;
+    left: 175px;
+}
+
+.preview2 {
+    background-image: url('../assets/restaurant.jpg');
+    position: absolute;
+    top: 108px;
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .wrapper {
+        padding-inline: 4rem;
+    }
+
+    .text {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        padding-inline: 2.5rem;
+    }
+    .images {
+        width: auto;
+        height: auto;
+    }
+
+    .preview1,
+    .preview2 {
+        position: relative;
+        inset: 0;
+    }
+
+    .preview1 {
+        margin-bottom: 2rem;
+    }
+}

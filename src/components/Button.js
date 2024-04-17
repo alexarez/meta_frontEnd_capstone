@@ -1,6 +1,8 @@
+import buttonStyles from './Button.module.css'
+
 function Button(props) {
     return (
-        <a href='' className={props.type}>{props.label}</a>
+        <a href='' className={`${buttonStyles['karla-medium']} ${buttonStyles.btn}`}>{props.label}</a>
     )
 }
 

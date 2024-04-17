@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+.btn {
+    display: block;
+    width: fit-content;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 1.1rem 2.5rem;
+    border-radius: 1rem;
+    color: #000000;
+    border: 3px solid transparent;
+    background-color: #F4CE14;
+    transition: all 120ms;
+}
+
+.karla-medium {
+    font-family: 'Karla', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}

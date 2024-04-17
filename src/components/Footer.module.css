@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+.karla-medium {
+    font-family: 'Karla', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.karla-extra-bold {
+    font-family: 'Karla', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem max(13vw, 7rem);
+    flex-wrap: wrap;
+    padding: 5rem 3rem;
+
+    background-color: #edefee;
+}
+
+.logo {
+    width: 200px;
+}
+
+.list-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 3rem max(7vw, 5rem);
+}
+
+.list-wrapper h4,
+.list-wrapper li {
+    font-size: 20px;
+}
+
+.list-wrapper h4 {
+    height: 4rem;
+    color: #495E57;
+}
+
+.list-wrapper li {
+    list-style: none;
+}
+
+.list-wrapper a {
+    text-decoration: none;
+    color: #333;
+}
+
+.list-wrapper a:hover {
+    color: #EE9972;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+    .footer {
+        flex-direction: column;
+    }
+
+    .list-wrapper {
+        flex-direction: column;
+        row-gap: 6rem;
+    }
+
+    .list-wrapper h4 {
+        text-align: center;
+        height: min-content;
+        margin-bottom: 0.5rem;
+    }
+
+    .list-wrapper ul {
+        text-align: center;
+    }
+
+    .list-wrapper a {
+        display: block;
+        padding-block: 0.5rem;
+    }
+}
