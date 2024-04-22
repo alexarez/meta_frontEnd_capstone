@@ -1,7 +1,5 @@
 import './App.css';
-import Header from './components/Header.js';
 import Main from './components/Main.js';
-import Footer from './components/Footer.js';
 import greekSalad from './assets/greek salad.jpg';
 import bruchetta from './assets/bruchetta.jpg';
 import lemonDessert from './assets/lemon dessert.jpg';
@@ -11,6 +9,13 @@ import avatar3 from './assets/avatar3.jpg';
 import avatar4 from './assets/avatar4.jpg';
 import star4 from './assets/star4.svg';
 import star5 from './assets/star5.svg';
+import { Routes, Route } from 'react-router-dom';
+import Homepage from './components/Homepage.js';
+import About from './components/About.js';
+import Menu from './components/Menu.js';
+import Reservations from './components/Reservations.js';
+import OrderOnline from './components/OrderOnline.js';
+import Login from './components/Login.js';
 
 const dishes = [
   {
@@ -63,9 +68,15 @@ const testimonials = [
 function App() {
   return (
     <>
-      <Header />
+      <Routes>
+        <Route path='/' element={<Homepage dishes={dishes} testimonials={testimonials} />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/menu' element={<Menu />} />
+        <Route path='/reservations' element={<Reservations />} />
+        <Route path='/order-online' element={<OrderOnline />} />
+        <Route path='/login' element={<Login />} />
+      </Routes>
       <Main dishes={dishes} testimonials={testimonials} />
-      <Footer />
     </>
   );
 }

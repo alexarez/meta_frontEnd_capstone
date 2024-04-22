@@ -8,7 +8,7 @@ function Specials(props) {
             <div className={specialsStyles.wrapper}>
                 <div className={specialsStyles.header}>
                     <h2 className={`${specialsStyles.heading} ${specialsStyles['markazi-regular']}`}>Week Specials</h2>
-                    <Button label='Online Menu' />
+                    <Button label='Online Menu' route='/menu' />
                 </div>
                 <CardList dishes={props.dishes} />
             </div>

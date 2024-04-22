@@ -1,8 +1,9 @@
 import buttonStyles from './Button.module.css'
+import { Link } from 'react-router-dom'
 
 function Button(props) {
     return (
-        <a href='' className={`${buttonStyles['karla-medium']} ${buttonStyles.btn}`}>{props.label}</a>
+        <Link to={props.route} className={`${buttonStyles['karla-medium']} ${buttonStyles.btn}`}>{props.label}</Link>
     )
 }
 

@@ -1,5 +1,6 @@
 import logo from '../assets/Logo .svg';
 import footStyles from './Footer.module.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -10,12 +11,12 @@ function Footer() {
                     <h4 className={footStyles['karla-extra-bold']}>Doormat<br></br>Navigation</h4>
                     <nav>
                         <ul className={`${footStyles['karla-medium']}`}>
-                            <li><a href=''>Home</a></li>
-                            <li><a href=''>About</a></li>
-                            <li><a href=''>Menu</a></li>
-                            <li><a href=''>Reservations</a></li>
-                            <li><a href=''>Order Online</a></li>
-                            <li><a href=''>Login</a></li>
+                            <li><Link to='/'>Home</Link></li>
+                            <li><Link to='/about'>About</Link></li>
+                            <li><Link to='/menu'>Menu</Link></li>
+                            <li><Link to='/reservations'>Reservations</Link></li>
+                            <li><Link to='/order-online'>Order Online</Link></li>
+                            <li><Link to='/login'>Login</Link></li>
                         </ul>
                     </nav>
                 </div>
