@@ -5,7 +5,9 @@ function Menu() {
     return (
         <div>
             <Header />
-            <h1>Menu page</h1>
+            <main>
+                <h1>Menu page</h1>
+            </main>
             <Footer />
         </div>
     )

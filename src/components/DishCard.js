@@ -1,5 +1,6 @@
 import delivery from '../assets/delivery.svg';
 import dishStyles from './DishCard.module.css';
+import { Link } from 'react-router-dom';
 
 function DishCard({ dish }) {
     return (
@@ -11,10 +12,10 @@ function DishCard({ dish }) {
                 </div>
                 <p className={`${dishStyles.description} ${dishStyles['karla-regular']}`}>{dish.description}</p>
                 <div className={dishStyles.footer}>
-                    <a href="" className={`${dishStyles['call-to-action']}`}>
+                    <Link to='/order-online' className={`${dishStyles['call-to-action']}`}>
                         <p className={`${dishStyles['karla-bold']}`}>Order a delivery</p>
                         <img src={delivery} alt="Delivery icon" />
-                    </a>
+                    </Link>
                 </div>
             </div>
     )

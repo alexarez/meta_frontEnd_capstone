@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+.karla-medium {
+    font-family: 'Karla', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.karla-bold {
+    font-family: 'Karla', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.karla-extra-bold {
+    font-family: 'Karla', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.wrapper {
+    width: 40em;
+    margin: 0 auto;
+    padding: 2.5em;
+    border-radius: 1rem;
+    background-color: #333;
+}
+
+.wrapper > *:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.icon-container {
+    text-align: center;
+}
+
+.icon {
+    color: #f4ce14;
+    font-size: 7em;
+}
+
+.wrapper h2 {
+    text-align: center;
+    font-size: 3rem;
+    color: #48742c;
+}
+
+.wrapper p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5em;
+    padding: 0.5rem 5rem;
+    width: 20em;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: #333;
+    background-color: #f4ce14;
+}

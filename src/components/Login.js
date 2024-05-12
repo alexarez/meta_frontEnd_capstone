@@ -4,7 +4,9 @@ function Login() {
     return (
         <div>
             <Header />
-            <h1>Login page</h1>
+            <main>
+                <h1>Login page</h1>
+            </main>
         </div>
     )
 }

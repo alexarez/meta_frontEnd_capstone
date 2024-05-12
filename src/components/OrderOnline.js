@@ -5,7 +5,9 @@ function OrderOnline() {
     return (
         <div>
             <Header />
-            <h1>Order Online page</h1>
+            <main>
+                <h1>Order Online page</h1>
+            </main>
             <Footer />
         </div>
     )

@@ -9,10 +9,12 @@ function Homepage(props) {
     return (
         <>
             <Header />
-            <Hero />
-            <Specials dishes={props.dishes} />
-            <Testimonials testimonials={props.testimonials} />
-            <Description />
+            <main>
+                <Hero />
+                <Specials dishes={props.dishes} />
+                <Testimonials testimonials={props.testimonials} />
+                <Description />
+            </main>
             <Footer />
         </>
     )

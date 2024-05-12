@@ -1,5 +1,4 @@
 import './App.css';
-import Main from './components/Main.js';
 import greekSalad from './assets/greek salad.jpg';
 import bruchetta from './assets/bruchetta.jpg';
 import lemonDessert from './assets/lemon dessert.jpg';
@@ -76,7 +75,6 @@ function App() {
         <Route path='/order-online' element={<OrderOnline />} />
         <Route path='/login' element={<Login />} />
       </Routes>
-      <Main dishes={dishes} testimonials={testimonials} />
     </>
   );
 }
