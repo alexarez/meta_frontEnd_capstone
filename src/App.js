@@ -1,7 +1,7 @@
 import './App.css';
-import greekSalad from './assets/greek salad.jpg';
+import greekSalad from './assets/greek-salad.jpg';
 import bruchetta from './assets/bruchetta.jpg';
-import lemonDessert from './assets/lemon dessert.jpg';
+import lemonDessert from './assets/lemon-dessert.jpg';
 import avatar1 from './assets/avatar1.jpg';
 import avatar2 from './assets/avatar2.jpg';
 import avatar3 from './assets/avatar3.jpg';
