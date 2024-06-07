@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/meta_frontEnd_capstone/static/css/main.11ce7234.css",
+    "main.js": "/meta_frontEnd_capstone/static/js/main.5fa394d0.js",
+    "static/js/453.75e21181.chunk.js": "/meta_frontEnd_capstone/static/js/453.75e21181.chunk.js",
+    "static/media/avatar3.jpg": "/meta_frontEnd_capstone/static/media/avatar3.e1708f7d807bcfe61671.jpg",
+    "static/media/restaurant chef B.jpg": "/meta_frontEnd_capstone/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
+    "static/media/greek salad.jpg": "/meta_frontEnd_capstone/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/avatar2.jpg": "/meta_frontEnd_capstone/static/media/avatar2.aa399b6c6c71797bc899.jpg",
+    "static/media/restauranfood.jpg": "/meta_frontEnd_capstone/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/avatar4.jpg": "/meta_frontEnd_capstone/static/media/avatar4.ffb9f6d7d91cbcb67402.jpg",
+    "static/media/avatar1.jpg": "/meta_frontEnd_capstone/static/media/avatar1.b645a846e88f6c58dbd2.jpg",
+    "static/media/bruchetta.jpg": "/meta_frontEnd_capstone/static/media/bruchetta.16d6ccbad3536c2d7979.jpg",
+    "static/media/restaurant.jpg": "/meta_frontEnd_capstone/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/Logo .svg": "/meta_frontEnd_capstone/static/media/Logo .f72c913c48c5334f78f2c336ec36f22b.svg",
+    "static/media/delivery.svg": "/meta_frontEnd_capstone/static/media/delivery.918f1debcdbb623b0af1a4321dbe14cc.svg",
+    "static/media/star4.svg": "/meta_frontEnd_capstone/static/media/star4.c0ccd027e16e8b5403f79888d02195e1.svg",
+    "static/media/star5.svg": "/meta_frontEnd_capstone/static/media/star5.58e4ebe84bad9c60fd74eeaece5685b2.svg",
+    "static/media/close.svg": "/meta_frontEnd_capstone/static/media/close.fbd6c6335cc594b3a4df.svg",
+    "index.html": "/meta_frontEnd_capstone/index.html",
+    "static/media/hamburger.svg": "/meta_frontEnd_capstone/static/media/hamburger.7723e14e85d901c3c861.svg",
+    "main.11ce7234.css.map": "/meta_frontEnd_capstone/static/css/main.11ce7234.css.map",
+    "main.5fa394d0.js.map": "/meta_frontEnd_capstone/static/js/main.5fa394d0.js.map",
+    "453.75e21181.chunk.js.map": "/meta_frontEnd_capstone/static/js/453.75e21181.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11ce7234.css",
+    "static/js/main.5fa394d0.js"
+  ]
+}
